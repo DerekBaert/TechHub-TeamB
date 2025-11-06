@@ -7,8 +7,8 @@ public class Health : MonoBehaviour {
 
     [Header("CurrentState")]
     public bool isActivated = true; // triggered by things, turned to false if destoryOnDeath is false and the item is destroyed
-    public int currentHealth = 10; // current health bar
-    public int maxHealth = 10; // reset to max health
+    public int currentHealth = 3; // current health bar
+    public int maxHealth = 3; // reset to max health
 
     [Header("Health Script Settings")]
     public bool destroyOnDeath = false; // do we destroy this when its health runs out vs just deactivate it
