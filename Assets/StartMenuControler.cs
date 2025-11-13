@@ -10,4 +10,8 @@ public class StartMenuController : MonoBehaviour
         SceneManager.LoadScene("Timer script");
     }
 
+    public void OnOptionsClick()
+    {
+        SceneManager.LoadScene("Options Menu");
+    }
 }
