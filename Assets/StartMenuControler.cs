@@ -10,13 +10,4 @@ public class StartMenuController : MonoBehaviour
         SceneManager.LoadScene("Timer script");
     }
 
-    public void OnExitClick()
-
-    {
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#endif
-        Application.Quit();
-    }
 }
-
