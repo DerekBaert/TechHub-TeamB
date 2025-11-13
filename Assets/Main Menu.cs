@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Respawn : MonoBehaviour
 {
-    public void OnRespawnClick()
+    public void OnMainMenuClick()
     {
-        SceneManager.LoadScene("Timer script");
+        SceneManager.LoadScene("Main Menu");
     }
 
     public void OnExitClick()
