@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BulletSpawner : MonoBehaviour
 {
-    enum SpawnerType { Straight, Spin }
+    enum SpawnerType { Straight, Spin, Backtfourth }
     [Header("Bullet Attributes")]
     public GameObject bullet;
     public float bulletLife = 1f; 
@@ -25,6 +25,15 @@ public class BulletSpawner : MonoBehaviour
     {
         timer += Time.deltaTime; 
         if (spawnerType == SpawnerType.Spin) transform.eulerAngles = new Vector3 (0f, 0f, transform.eulerAngles.z+1f);
+        if (timer >= FiringRate)
+        {
+            timer = 0f;
+            Fire();
+
+        }
+
+        timer += Time.deltaTime;
+        if (spawnerType == SpawnerType.Backtfourth)  new Vector3(5f, 10f,  + 1f);
         if (timer >= FiringRate)
         {
             timer = 0f;
