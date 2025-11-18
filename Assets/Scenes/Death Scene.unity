@@ -820,8 +820,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1558373825}
+      - m_Target: {fileID: 1558373826}
         m_TargetAssemblyTypeName: Respawn, Assembly-CSharp
         m_MethodName: 
+        m_MethodName: OnMainMenuClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1074,7 +1076,6 @@ MonoBehaviour:
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
-  m_Version: 2
   m_TaaSettings:
     m_Quality: 3
     m_FrameInfluence: 0.1
@@ -1082,6 +1083,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   m_Version: 2
@@ -1183,6 +1185,9 @@ AudioSource:
     m_PostInfinity: 2
     m_RotationOrder: 4
 >>>>>>> 24624b51d6019360fb6bc7190ef1ce2a99ba3675
+=======
+  m_Version: 2
+>>>>>>> parent of 5174915 (Death scene)
 --- !u!1 &2063694228
 GameObject:
   m_ObjectHideFlags: 0
