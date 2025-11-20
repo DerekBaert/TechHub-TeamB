@@ -9,7 +9,7 @@ public class spikes : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<Playerhealth>())
         {
-            collision.gameObject.GetComponent<Playerhealth>().TakeDamge(damage);
+            collision.gameObject.GetComponent<Playerhealth>().ChangeHealth(damage);
         }
        
     }
