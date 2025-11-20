@@ -7,7 +7,7 @@ public class StartMenuController : MonoBehaviour
 {
     public void OnStartClick()
     {
-        SceneManager.LoadScene("Timer script");
+        SceneManager.LoadScene("Main Game");
     }
 
     public void OnOptionsClick()
