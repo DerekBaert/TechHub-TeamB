@@ -1,3 +1,6 @@
+using JetBrains.Annotations;
+using System.Runtime.InteropServices;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BulletSpawner : MonoBehaviour
@@ -7,6 +10,10 @@ public class BulletSpawner : MonoBehaviour
     public GameObject bullet;
     public float bulletLife = 1f; 
     public float speed = 1f;
+    public Transform pos1, pos2; //This Is for the BackTForth Spawner
+    public Transform StartPos;
+
+    Vector3 nextpos;
 
     [Header("Spawner Attributes")]
     [SerializeField] private SpawnerType spawnerType;
@@ -17,7 +24,7 @@ public class BulletSpawner : MonoBehaviour
 
     void Start()
     {
-        
+         nextpos = StartPos.position;
     }
 
     // Update is called once per frame
@@ -31,10 +38,21 @@ public class BulletSpawner : MonoBehaviour
             Fire();
 
         }
-
+        
         timer += Time.deltaTime;
-        if (spawnerType == SpawnerType.Backtfourth)  new Vector3(5f, 10f,  + 1f);
+        if (spawnerType == SpawnerType.Backtfourth);
         if (timer >= FiringRate)
+           if (transform.position== pos1.position)
+            {
+                nextpos = pos2.position;
+            }
+        if (transform.position == pos2.position)
+        {
+            nextpos = pos1.position;
+        }
+        {
+            transform.position = Vector3.MoveTowards(transform.position, nextpos,speed* Time.deltaTime);
+        }
         {
             timer = 0f;
             Fire();
