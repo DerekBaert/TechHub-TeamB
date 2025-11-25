@@ -25,6 +25,8 @@ public class Bullet : MonoBehaviour
         transform.position = Movement(timer);
     }
 
+
+
     public Vector2 Movement(float t)
     {
         float x = timer * speed * transform.right.x;
