@@ -12,7 +12,7 @@ public class BulletSpawner : MonoBehaviour
     public float speed = 1f;
     public Transform pos1, pos2; //This Is for the BackTForth Spawner
     public Transform StartPos;
-    public float speedB;
+  
 
     Vector3 nextpos;
 
@@ -41,7 +41,17 @@ public class BulletSpawner : MonoBehaviour
         }
         
         timer += Time.deltaTime;
-        
+        if (spawnerType == SpawnerType.Backtfourth);
+        if (timer >= FiringRate)
+           if (transform.position== pos1.position)
+            {
+                nextpos = pos2.position;
+            }
+        if (transform.position == pos2.position)
+        {
+            nextpos = pos1.position;
+        }
+       
         {
             timer = 0f;
             Fire();

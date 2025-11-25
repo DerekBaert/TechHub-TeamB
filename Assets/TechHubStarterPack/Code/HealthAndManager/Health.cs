@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour {
 
@@ -51,7 +52,8 @@ public class Health : MonoBehaviour {
             Instantiate(deathEffectPrefab, transform.position, transform.rotation);
         }
 
-        if( destroyOnDeath){
+        if( destroyOnDeath)
+        {  SceneManager.LoadScene("Death Scene");
             Destroy(gameObject); // Destroy ourself, the game object
         }else{
 
