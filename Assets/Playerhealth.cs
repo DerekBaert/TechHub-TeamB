@@ -9,7 +9,7 @@ public class Playerhealth : MonoBehaviour
         currenthealth = maxhealth; 
     }
 
-    public void TakeDamge(float damge)
+    public void ChangeHealth(float damge)
     {
         currenthealth -= damge;
     }
