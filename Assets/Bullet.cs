@@ -10,9 +10,9 @@ public class Bullet : MonoBehaviour
     public float bulletLife = 1f; // How long it lives
     public float rocation = 0f;  // Way its going ya you get it...
     public float speed = 1f; // How fast it goes ZOOOOOOOOOOOOOOOOM
-    
+
     private Vector2 spawnPoint; //where it spawns i think...
-    private  float timer = 0f; // How long it last
+    private float timer = 0f; // How long it last
     void Start()
     {
         spawnPoint = new Vector2(transform.position.x, transform.position.y);
@@ -26,7 +26,10 @@ public class Bullet : MonoBehaviour
     }
 
 
-
+    private void OnCollisionEnter2D(Collision collision)
+    {
+        
+    }
     public Vector2 Movement(float t)
     {
         float x = timer * speed * transform.right.x;

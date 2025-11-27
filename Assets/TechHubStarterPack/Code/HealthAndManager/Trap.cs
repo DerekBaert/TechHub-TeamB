@@ -38,13 +38,14 @@ public class Trap : MonoBehaviour {
             // Send a HitTrap method call to the health that collided with it
             collidedHealth.TakeDamage(damage);
 
-            // Check trap settings 
-            //if( disableOnHit ){
-            //    gameObject.SetActive(false);
-            //}
+            //Check trap settings
+            if (disableOnHit)
+            {
+                gameObject.SetActive(false);
+            }
 
             // If we have a trap hit sound, play it
-            if(trapHitSound != null){
+            if (trapHitSound != null){
                 trapHitSound.Play();
             }
 
