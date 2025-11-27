@@ -24,12 +24,6 @@ public class Bullet : MonoBehaviour
         timer += Time.deltaTime;
         transform.position = Movement(timer);
     }
-
-
-    private void OnCollisionEnter2D(Collision collision)
-    {
-        
-    }
     public Vector2 Movement(float t)
     {
         float x = timer * speed * transform.right.x;
@@ -37,4 +31,5 @@ public class Bullet : MonoBehaviour
         return new Vector2(x + spawnPoint.x, y + spawnPoint.y);
     }
 }
+
 
