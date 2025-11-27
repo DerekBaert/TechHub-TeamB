@@ -3650,20 +3650,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67122e50f18c27948bf824856e006be6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Recovery
-  maxStamina: 10
-  currentStamina: 0
-  staminaDrainRate: 2
-  staminaRegenRate: 2
-  regenDelay: 2
   maxHealth: 10
   currentHealth: 0
   healAmount: 2
   healCooldown: 15
   maxHeals: 99999
   healKey: 101
-  staminaBar: {fileID: 279197376}
   healthBar: {fileID: 0}
-  staminaText: {fileID: 0}
   healCountText: {fileID: 0}
   healButton: {fileID: 0}
   healKeyText: {fileID: 0}
