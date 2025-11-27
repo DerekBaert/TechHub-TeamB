@@ -10,8 +10,8 @@ public class StartMenuController : MonoBehaviour
         SceneManager.LoadScene("Main Game");
     }
 
-    public void OnOptionsClick()
+    public void OnTutorialClick()
     {
-        SceneManager.LoadScene("Options Menu");
+        SceneManager.LoadScene("Tutorial Scene");
     }
 }

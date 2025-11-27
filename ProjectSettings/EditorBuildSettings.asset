@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Timer script.unity
     guid: ddf9ee38a27fe2b4e873883fa00a7bd5
   - enabled: 1
-    path: Assets/Scenes/Options Menu.unity
+    path: Assets/Scenes/Tutorial Scene.unity
     guid: 6128881b5333d1041900cb2898e968ce
   - enabled: 1
     path: Assets/Scenes/Main Game.unity
