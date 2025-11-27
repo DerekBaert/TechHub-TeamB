@@ -23,10 +23,14 @@ public class Trap : MonoBehaviour {
     // If the Collider attached to this script has a Collider with the Trigger checkbox checked, 
     // call OnTriggerEnter2D with the other colliders reference
 	public void OnTriggerEnter2D(Collider2D col){
-
+        Debug.Log("Hitsanything");
         // get the player controller reference from the collider. 
         // We are assuming the PlayerController script is on the same GameObject as the collider
         Health collidedHealth = col.GetComponent<Health>();
+        if (col.gameObject.CompareTag("Wall"))
+        { Destroy (gameObject);
+            Debug.Log("hitwall");
+        }
 
         // if we collided with a player
         if (collidedHealth != null){
@@ -35,9 +39,9 @@ public class Trap : MonoBehaviour {
             collidedHealth.TakeDamage(damage);
 
             // Check trap settings 
-            if( disableOnHit ){
-                gameObject.SetActive(false);
-            }
+            //if( disableOnHit ){
+            //    gameObject.SetActive(false);
+            //}
 
             // If we have a trap hit sound, play it
             if(trapHitSound != null){
