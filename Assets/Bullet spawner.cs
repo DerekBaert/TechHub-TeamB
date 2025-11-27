@@ -25,7 +25,7 @@ public class BulletSpawner : MonoBehaviour
 
     void Start()
     {
-         nextpos = StartPos.position;
+         
     }
 
     // Update is called once per frame
