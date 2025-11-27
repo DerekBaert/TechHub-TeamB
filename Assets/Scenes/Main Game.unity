@@ -151,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   bullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
   bulletLife: 9
-  speed: 3
+  speed: 2.5
   pos1: {fileID: 0}
   pos2: {fileID: 0}
   StartPos: {fileID: 0}
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   bullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
   bulletLife: 9
-  speed: 3
+  speed: 2.5
   pos1: {fileID: 0}
   pos2: {fileID: 0}
   StartPos: {fileID: 0}
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   bullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
   bulletLife: 9
-  speed: 3
+  speed: 2.5
   pos1: {fileID: 0}
   pos2: {fileID: 0}
   StartPos: {fileID: 0}
@@ -1769,7 +1769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   bullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
   bulletLife: 9
-  speed: 3
+  speed: 2.5
   pos1: {fileID: 0}
   pos2: {fileID: 0}
   StartPos: {fileID: 0}
@@ -3429,7 +3429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   bullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
   bulletLife: 9
-  speed: 3
+  speed: 2.5
   pos1: {fileID: 0}
   pos2: {fileID: 0}
   StartPos: {fileID: 0}
