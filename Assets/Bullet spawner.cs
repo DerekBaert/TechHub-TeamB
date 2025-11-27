@@ -21,7 +21,7 @@ public class BulletSpawner : MonoBehaviour
     [SerializeField] private float FiringRate = 1f;
 
     public GameObject spawnedBullet;
-    private float timer = 0f;
+    private float timer = 0f; // Something
 
     void Start()
     {
