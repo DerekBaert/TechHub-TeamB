@@ -5,13 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class StartMenuController : MonoBehaviour
 {
+    public FadeAnim FadeWhenClicked;
+
     public void OnStartClick()
     {
-        SceneManager.LoadScene("Main Game");
+        FadeWhenClicked.FadeOut();
+        StartCoroutine(StartGame());
     }
 
     public void OnTutorialClick()
     {
+        FadeWhenClicked.FadeOut();
+        StartCoroutine(StartTutorial());
+    }
+
+    IEnumerator StartGame()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("Main Game");
+    }
+
+    IEnumerator StartTutorial()
+    {
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("Tutorial Scene");
     }
 }

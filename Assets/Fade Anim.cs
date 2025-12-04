@@ -18,4 +18,8 @@ public class FadeAnim : MonoBehaviour
             anim.SetTrigger("fadeOut");
         }
     }
+    public void FadeOut()
+    {
+        anim.SetTrigger("fadeOut");
+    }
 }
