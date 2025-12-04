@@ -152,9 +152,6 @@ MonoBehaviour:
   bullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
   bulletLife: 9
   speed: 2.5
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  StartPos: {fileID: 0}
   spawnerType: 1
   FiringRate: 0.35
   spawnedBullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
@@ -264,9 +261,6 @@ MonoBehaviour:
   bullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
   bulletLife: 9
   speed: 2.5
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  StartPos: {fileID: 0}
   spawnerType: 1
   FiringRate: 0.35
   spawnedBullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
@@ -407,9 +401,6 @@ MonoBehaviour:
   bullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
   bulletLife: 9
   speed: 2.5
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  StartPos: {fileID: 0}
   spawnerType: 1
   FiringRate: 0.35
   spawnedBullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
@@ -603,7 +594,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -3.6873627, w: 0}
+  m_margin: {x: 0, y: 0, z: -10.248215, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -633,7 +624,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -577, y: 268}
+  m_AnchoredPosition: {x: 31, y: 268}
   m_SizeDelta: {x: 203.2575, y: 48.0728}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &279197373
@@ -672,7 +663,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -588, y: 183}
+  m_AnchoredPosition: {x: -530, y: 218}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279197376
@@ -759,9 +750,6 @@ MonoBehaviour:
   bullet: {fileID: 4921899019428677303, guid: ff60cd342ebe3754e87c5987fbee87b6, type: 3}
   bulletLife: 9
   speed: 4.5
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  StartPos: {fileID: 0}
   spawnerType: 1
   FiringRate: 0.35
   spawnedBullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
@@ -902,9 +890,6 @@ MonoBehaviour:
   bullet: {fileID: 8657688037707143894, guid: 910b9803221b24e40b23a5904d43202d, type: 3}
   bulletLife: 17
   speed: 1
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  StartPos: {fileID: 0}
   spawnerType: 0
   FiringRate: 40
   spawnedBullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
@@ -1770,9 +1755,6 @@ MonoBehaviour:
   bullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
   bulletLife: 9
   speed: 2.5
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  StartPos: {fileID: 0}
   spawnerType: 1
   FiringRate: 0.35
   spawnedBullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
@@ -2217,9 +2199,6 @@ MonoBehaviour:
   bullet: {fileID: 4921899019428677303, guid: ff60cd342ebe3754e87c5987fbee87b6, type: 3}
   bulletLife: 9
   speed: 4.5
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  StartPos: {fileID: 0}
   spawnerType: 1
   FiringRate: 0.35
   spawnedBullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
@@ -2433,9 +2412,6 @@ MonoBehaviour:
   bullet: {fileID: 8657688037707143894, guid: 910b9803221b24e40b23a5904d43202d, type: 3}
   bulletLife: 17
   speed: 1
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  StartPos: {fileID: 0}
   spawnerType: 0
   FiringRate: 50
   spawnedBullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
@@ -2580,7 +2556,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -594, y: 232}
+  m_AnchoredPosition: {x: -535, y: 246}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1230379617
@@ -2942,9 +2918,6 @@ MonoBehaviour:
   bullet: {fileID: 8657688037707143894, guid: 910b9803221b24e40b23a5904d43202d, type: 3}
   bulletLife: 17
   speed: 1
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  StartPos: {fileID: 0}
   spawnerType: 0
   FiringRate: 30
   spawnedBullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
@@ -3446,9 +3419,6 @@ MonoBehaviour:
   bullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
   bulletLife: 9
   speed: 2.5
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  StartPos: {fileID: 0}
   spawnerType: 1
   FiringRate: 0.35
   spawnedBullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
@@ -3558,9 +3528,6 @@ MonoBehaviour:
   bullet: {fileID: 4921899019428677303, guid: ff60cd342ebe3754e87c5987fbee87b6, type: 3}
   bulletLife: 9
   speed: 4.5
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  StartPos: {fileID: 0}
   spawnerType: 1
   FiringRate: 0.35
   spawnedBullet: {fileID: 3947260952344241726, guid: a9cfefeeb800897408570e1795242cfa, type: 3}
@@ -3706,7 +3673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71d5d41ba15dd64419e84c4c67aed149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AbilityCooldown
-  cooldownTime: 15
+  cooldownTime: 25
   cooldownSlider: {fileID: 279197376}
 --- !u!1001 &6346393326182437437
 PrefabInstance:
@@ -3755,15 +3722,15 @@ PrefabInstance:
     - target: {fileID: 4997981647561250492, guid: 312dac18aa5eb5441aa72f2aca9fbc53, type: 3}
       propertyPath: leftSprite
       value: 
-      objectReference: {fileID: 2600418723446463888, guid: b081cec8a6cd9504dad68d3dc93b1dee, type: 3}
+      objectReference: {fileID: -1183389888826607301, guid: bc281764bc84b3545a94af8f0b7b9508, type: 3}
     - target: {fileID: 4997981647561250492, guid: 312dac18aa5eb5441aa72f2aca9fbc53, type: 3}
       propertyPath: rightSprite
       value: 
-      objectReference: {fileID: 2600418723446463888, guid: b081cec8a6cd9504dad68d3dc93b1dee, type: 3}
+      objectReference: {fileID: 1452511585185209710, guid: fccd5e3484fdbd147b6b0f52363f8c6a, type: 3}
     - target: {fileID: 4997981647561250492, guid: 312dac18aa5eb5441aa72f2aca9fbc53, type: 3}
       propertyPath: bottomSprite
       value: 
-      objectReference: {fileID: 2600418723446463888, guid: b081cec8a6cd9504dad68d3dc93b1dee, type: 3}
+      objectReference: {fileID: 606206606521874188, guid: 224bb9956265bf1459dbf7348e7e2450, type: 3}
     - target: {fileID: 5452362763070189094, guid: 312dac18aa5eb5441aa72f2aca9fbc53, type: 3}
       propertyPath: m_Radius
       value: 0.1259321
