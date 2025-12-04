@@ -10,8 +10,7 @@ public class BulletSpawner : MonoBehaviour
     public GameObject bullet;
     public float bulletLife = 1f; 
     public float speed = 1f;
-    public Transform pos1, pos2; //This Is for the BackTForth Spawner
-    public Transform StartPos;
+
   
 
     Vector3 nextpos;
