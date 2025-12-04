@@ -633,7 +633,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -393, y: 227.7}
+  m_AnchoredPosition: {x: -577, y: 268}
   m_SizeDelta: {x: 203.2575, y: 48.0728}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &279197373
@@ -672,7 +672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -404, y: 140.9}
+  m_AnchoredPosition: {x: -588, y: 183}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279197376
@@ -718,7 +718,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1231689977}
   m_FillRect: {fileID: 747903101}
   m_HandleRect: {fileID: 1231689976}
-  m_Direction: 0
+  m_Direction: 1
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
@@ -2003,7 +2003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.95764875, b: 1, a: 1}
+  m_Color: {r: 0.45069414, g: 0.6792453, b: 0.6479535, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2580,7 +2580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -404, y: 182}
+  m_AnchoredPosition: {x: -594, y: 232}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1230379617
@@ -2831,7 +2831,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -5, y: 0}
+  m_AnchoredPosition: {x: 5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1429154014
@@ -2884,7 +2884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.69552225, g: 0.8042545, b: 0.8742138, a: 1}
+  m_Color: {r: 0, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3113,6 +3113,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1027749281638360, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 1401796815149028, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
       propertyPath: m_Name
       value: STOP
@@ -3125,14 +3129,26 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1410798523249408, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 1474309983333814, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474309983333814, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 1868732240638374, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1868732240638374, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4281854398158104, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
       propertyPath: m_LocalScale.x
       value: 19.57855
@@ -3147,7 +3163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4281854398158104, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.65
+      value: -3.87
       objectReference: {fileID: 0}
     - target: {fileID: 4496633089986078, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
       propertyPath: m_LocalScale.x
@@ -3163,7 +3179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4496633089986078, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.35
+      value: 4.13
       objectReference: {fileID: 0}
     - target: {fileID: 4655467814065810, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
       propertyPath: m_LocalScale.x
@@ -3175,7 +3191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4655467814065810, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.93
+      value: -8.21
       objectReference: {fileID: 0}
     - target: {fileID: 4655467814065810, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3191,7 +3207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4785959211878956, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.85
+      value: 8.23
       objectReference: {fileID: 0}
     - target: {fileID: 4785959211878956, guid: eca6cddc30cdb314aa52ea26bbf025ea, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3631,6 +3647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2038337741}
   - component: {fileID: 2038337740}
+  - component: {fileID: 2038337742}
   m_Layer: 0
   m_Name: Recovery
   m_TagString: Untagged
@@ -3677,6 +3694,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2038337742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038337739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d5d41ba15dd64419e84c4c67aed149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AbilityCooldown
+  cooldownTime: 15
+  cooldownSlider: {fileID: 279197376}
 --- !u!1001 &6346393326182437437
 PrefabInstance:
   m_ObjectHideFlags: 0
