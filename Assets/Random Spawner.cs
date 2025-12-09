@@ -1,16 +1,38 @@
 using UnityEngine;
 
 public class RandomSpawner : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+{ 
+
+    public GameObject itemPrefab;
+    public float Radius = 1;
+    public float Randomspawn = 15f;
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space)) SpawnObjectAtRadom();
+        {
+        }
+        void SpawnObjectAtRadom() { }
+            Vector3 randomPos = Random.insideUnitCircle * Radius;
+
+
+        Instantiate(itemPrefab, randomPos, Quaternion.identity);
+        {
+
+        }
+        ;
     }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.paleGreen;
+
+        Gizmos.DrawWireSphere(this.transform.position, Radius);
+    }
+
 }
+
