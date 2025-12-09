@@ -5,14 +5,13 @@ using UnityEngine;
 
 public class BulletSpawner : MonoBehaviour
 {
-    enum SpawnerType { Straight, Spin, Backtfourth }
+    enum SpawnerType { Straight, Spin, }
 
     [Header("Bullet Attributes")]
     public GameObject bullet;
     public float bulletLife = 1f;
     public float speed = 1f;
-    public Transform pos1, pos2; // This Is for the BackTForth Spawner
-    public Transform StartPos;
+   
 
     [Header("Spawner Attributes")]
     [SerializeField] private SpawnerType spawnerType;
