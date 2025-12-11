@@ -9,4 +9,14 @@ public class Startgame : MonoBehaviour
         SceneManager.LoadScene("Puffer Fish");
     }
 
+public void OnGoldFishclick()
+    {
+        SceneManager.LoadScene("Gold Fish");
+    }
+
+    public void OnStarFishclick()
+    {
+        SceneManager.LoadScene("Star Fish");
+    }
+
 }

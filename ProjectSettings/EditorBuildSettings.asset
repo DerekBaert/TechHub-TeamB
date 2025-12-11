@@ -5,15 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 573342b40a80a9746b7bee2986459568
   - enabled: 1
-    path: Assets/Timer script.unity
-    guid: ddf9ee38a27fe2b4e873883fa00a7bd5
+    path: Assets/Scenes/Selector.unity
+    guid: 4f079b9b9dbc0e04ea5ac66a72574615
   - enabled: 1
     path: Assets/Scenes/Tutorial Scene.unity
     guid: 6128881b5333d1041900cb2898e968ce
@@ -21,8 +21,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Puffer Fish.unity
     guid: 42568de64ad93d34a9e217198d9d8b4d
   - enabled: 1
+    path: Assets/Scenes/Star fish.unity
+    guid: 7ceeaac257f19e44eb759c22f34aa9bd
+  - enabled: 1
+    path: Assets/Scenes/Gold Fish.unity
+    guid: ec4e74ed145f40d4db492ecd5fae6b80
+  - enabled: 1
     path: Assets/Scenes/Death Scene.unity
     guid: f3397c01c7829af46a64703d10e4b272
+  - enabled: 0
+    path: Assets/Timer script.unity
+    guid: ddf9ee38a27fe2b4e873883fa00a7bd5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
