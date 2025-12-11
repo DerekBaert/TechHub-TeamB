@@ -22,7 +22,7 @@ public class StartMenuController : MonoBehaviour
     IEnumerator StartGame()
     {
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("Main Game");
+        SceneManager.LoadScene("Puffer Fish");
     }
 
     IEnumerator StartTutorial()
