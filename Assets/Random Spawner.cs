@@ -5,16 +5,12 @@ public class RandomSpawner : MonoBehaviour
 
     public GameObject itemPrefab;
     public float Radius = 1;
-    public float Randomspawn = 15f;
-    void Start()
-    {
-
-    }
+ 
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) SpawnObjectAtRadom();
+        if (Input.GetKeyDown(KeyCode.E)) SpawnObjectAtRadom();
         {
         }
         void SpawnObjectAtRadom() { }

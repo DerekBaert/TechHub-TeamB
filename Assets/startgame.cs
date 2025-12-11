@@ -6,7 +6,7 @@ public class Startgame : MonoBehaviour
 {
    public void Onstartgameclick()
     {
-        SceneManager.LoadScene("Main Game");
+        SceneManager.LoadScene("Puffer Fish");
     }
 
 }
