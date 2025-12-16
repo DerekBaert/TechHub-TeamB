@@ -2835,8 +2835,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d22c0a82a4495e745a7c485c67a7d9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RandomSpawner
-  itemPrefab: {fileID: 4914099181758090801, guid: 0fb9d3b2ef41dc44ab8d7a1c63584b11, type: 3}
-  Radius: 5
+  flakeSprites:
+  - {fileID: 4914099181758090801, guid: 0fb9d3b2ef41dc44ab8d7a1c63584b11, type: 3}
+  secondSpawn: 15
+  minTras: -2
+  maxTras: 2
 --- !u!4 &1175364906
 Transform:
   m_ObjectHideFlags: 0

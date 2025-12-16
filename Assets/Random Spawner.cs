@@ -3,37 +3,26 @@ using UnityEngine;
 
 public class RandomSpawner : MonoBehaviour
 {
+    [SerializeField] GameObject[] flakeSprites;
+    [SerializeField] float secondSpawn = 0.5f;
+    [SerializeField] float minTras;
+    [SerializeField] float maxTras;
 
-    public GameObject itemPrefab;
-    public float Radius = 1;
-
-
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-        StartCoroutine(SpawnFlakes());
+        StartCoroutine(FlakeSpawn());
     }
-    private void OnDrawGizmos()
+
+    IEnumerator FlakeSpawn()
     {
-        Gizmos.color = Color.paleGreen;
-
-        Gizmos.DrawWireSphere(this.transform.position, Radius);
-    }
-    IEnumerator SpawnFlakes()
-    {
-        yield return new WaitForSeconds(25f);
-        SpawnObjectAtRadom();
+        while (true)
         {
+            var wanted = Random.Range(minTras, maxTras);
+            var position = new Vector3(wanted, transform.position.x, transform.position.y);
+            GameObject gameObject = Instantiate(flakeSprites[Random.Range(0, flakeSprites.Length)],
+            position, Quaternion.identity);
+            yield return new WaitForSeconds(secondSpawn);
+            Destroy(gameObject, 5f);
         }
-        void SpawnObjectAtRadom() { }
-        Vector3 randomPos = Random.insideUnitCircle * Radius;
-
-
-        Instantiate(itemPrefab, randomPos, Quaternion.identity);
-        {
-
-        }
-        ;
     }
 }
-
