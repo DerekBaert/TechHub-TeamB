@@ -25,11 +25,12 @@ public class Health : MonoBehaviour {
     // Called by traps when they are hit. Applies damage to the player
     // Pass a negative value to heal instead
     public void TakeDamage(int damageRecieved){
-        currentHealth = currentHealth - damageRecieved;
+        // Apply damage (negative = heal) and clamp between 0 and maxHealth to prevent overshield
+        currentHealth = Mathf.Clamp(currentHealth - damageRecieved, 0, maxHealth);
         damagedEvent.Invoke();
-       
+
         // if health is gone
-        if ( currentHealth <= 0){
+        if (currentHealth <= 0){
             DeadlyBlow(); // kill the player
         }
     }
