@@ -11,8 +11,7 @@ public class RandomSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-            StartCoroutine(SpawnFlakes());
+        StartCoroutine(SpawnFlakes());
     }
     private void OnDrawGizmos()
     {
@@ -22,7 +21,7 @@ public class RandomSpawner : MonoBehaviour
     }
     IEnumerator SpawnFlakes()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(25f);
         SpawnObjectAtRadom();
         {
         }
